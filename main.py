@@ -77,4 +77,3 @@ print(f"Model saved to artifacts/model.joblib")
 # Note: The notebook mentions preprocessor.pkl but it's not created in the provided code.
 # Ensure preprocessor.pkl is handled if needed for your actual deployment.
 # Run the following command to upload your model artifact:
-!gsutil cp artifacts/model.joblib {BUCKET_URI}/{MODEL_ARTIFACT_DIR}/
